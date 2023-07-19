@@ -1,0 +1,79 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+.background {
+   width: 100%;
+   height: 100vh;
+   background-image: url(resources/background.jpg);
+   background-size: cover;
+   background-repeat: repeat-x;
+   overflow-x: hidden;
+   position: absolute;
+}
+
+.boy {
+   height: 210px;
+   margin-top: 420px;
+   position: absolute;
+}
+
+.box {
+   width: 160px;
+   height: 160px;
+   position: absolute;
+   margin-top: 500px;
+   background-image: url(resources/spyro-dragon.gif);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.score {
+   font-size: 50px;
+   font-weight: bold;
+   margin-left: 30px;
+   margin-top: 20px;
+   position: absolute;
+   background: gray;
+   padding: 2px 16px;
+   opacity: 0.8;
+   border-radius: 5px;
+}
+
+.end {
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   background-image: linear-gradient(90deg, #8e0e00 0%, #1f1c18 100%);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 90px;
+   font-weight: bold;
+   color: #fff;
+   font-family: "Broadway";
+   visibility: hidden;
+}
+
+.btn {
+   height: 35px;
+   width: 300px;
+   margin-top: 50px;
+   font-size: 25px;
+   font-weight: 1000;
+   background: rgb(251, 255, 11);
+   border: none;
+   border-radius: 20px;
+}
+
+.btn:hover {
+   cursor: pointer;
+   height: 37px;
+   width: 305px;
+   background: rgb(145, 189, 0);
+   color: #000;
+}
